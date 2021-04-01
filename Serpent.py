@@ -1,3 +1,5 @@
+from Animal import *
+
 class Serpent(Animal):
     
     def __init__(self,poids,taille):
