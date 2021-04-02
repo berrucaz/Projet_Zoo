@@ -26,5 +26,5 @@ print(zooStMarcellin.liste, "\n")
 
 print(ani(5,1))
 
-zoo3=zoo1.add_zoo(zoo2)
+zoo3=zoo1.__add__(zoo2)
 print(zoo3.liste)

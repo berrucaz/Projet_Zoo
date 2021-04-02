@@ -8,6 +8,13 @@ class Zoo:
         if listeDesAnimaux is not None:
             for un_animal in listeDesAnimaux:
                 self.add_animal(un_animal)
+
+    def __str__(self):
+        return f"Mon zoo N°3:{self.liste}"
+        
+
+    def se_deplacer(self):
+        pass
         
 
     def add_animal(self,un_animal):
